@@ -30,7 +30,7 @@ bot.on('message', (msg) => {
 
 // hex: '#E54441'
 // hex: '#35BE32'
-
+//some changes
 bot.on('callback_query', function onCallbackQuery(callbackQuery) {
     const action = callbackQuery.data;
     const msg = callbackQuery.message;
